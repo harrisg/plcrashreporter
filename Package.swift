@@ -14,7 +14,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CrashReporter",
+            name: "PLCrashReporter",
             path: "",
             exclude: [
                 "Source/dwarf_opstream.hpp",
